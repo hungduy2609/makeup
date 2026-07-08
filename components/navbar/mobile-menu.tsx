@@ -25,16 +25,10 @@ export function MobileMenu({ navItems, bookingHref }: MobileMenuProps) {
           <span className="sr-only">Mở menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="right" className="flex flex-col gap-10">
+      <SheetContent side="right" className="flex flex-col gap-8">
         <div className="space-y-3 pr-10">
           <p className="section-kicker">Bi Nùn Makeup</p>
-          <h2 className="text-3xl leading-tight">
-            Menu điều hướng nhẹ nhàng và tập trung vào booking.
-          </h2>
-          <p className="text-sm text-muted">
-            Điều hướng nhanh đến album, dịch vụ và khu vực đặt lịch để giữ slot
-            phù hợp.
-          </p>
+          <h2 className="text-3xl leading-tight">Giữ slot makeup phù hợp</h2>
         </div>
         <nav className="flex flex-col gap-3">
           {navItems.map((item) => (

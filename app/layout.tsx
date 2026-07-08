@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bi Nùn Makeup",
     description:
-      "Trang giới thiệu dịch vụ makeup cá nhân với phong cách luxury Korean feminine và trải nghiệm đặt lịch nhanh.",
+      "",
     type: "website",
   },
 };

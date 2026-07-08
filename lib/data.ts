@@ -78,9 +78,9 @@ async function getBestPortfolioItems() {
 
 const siteData = {
   navItems: [
-    { label: "Trang chủ", href: "#trang-chu" },
     { label: "Album", href: "#album" },
     { label: "Dịch vụ", href: "#dich-vu" },
+    { label: "Đặt lịch", href: "#booking" },
   ] satisfies NavItem[],
   socialLinks,
   hero: {
@@ -280,6 +280,7 @@ const siteData = {
       { label: "Trang chủ", href: "#trang-chu" },
       { label: "Album", href: "#album" },
       { label: "Dịch vụ", href: "#dich-vu" },
+      { label: "Đặt lịch", href: "#booking" },
     ],
     socialLinks,
   },
