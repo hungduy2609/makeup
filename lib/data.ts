@@ -124,7 +124,7 @@ const siteData = {
     subtitle: "🔥 Makeup + Chụp hình",
     originalPrice: "450.000đ",
     offerPrice: "350.000đ",
-    badge: "Chỉ áp dụng cho 5 slot đầu tiên",
+    badge: "Chỉ áp dụng cho 5 slot đầu tiên\nCó phụ thu di chuyển",
     cta: {
       label: "Giữ slot ngay",
       href: "#booking",

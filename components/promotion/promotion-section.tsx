@@ -38,7 +38,7 @@ export function PromotionSection({ data }: PromotionSectionProps) {
                 </p>
                 <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-secondary/50 bg-white/72 px-4 py-2 text-sm font-semibold text-[#8d596f] shadow-[0_8px_24px_rgba(249,158,203,0.2)]">
                   <Sparkles className="size-4" />
-                  {data.badge}
+                  <span className="whitespace-pre-line">{data.badge}</span>
                 </div>
               </div>
 
